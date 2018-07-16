@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "How to Structure a React Native Project"
-date:   2016-01-04 14:32:48
-categories: ios
+title: "How to Structure a React Native Project"
+date: 2016-01-04 14:32:48
+description: Run and modified your first React Native app
+img: react-native.png
+tags: [ios]
 ---
 
 ### iOS Setup

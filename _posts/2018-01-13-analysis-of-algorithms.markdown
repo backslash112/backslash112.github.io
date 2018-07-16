@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Analysis of Algorithms"
-date:   2018-01-13
-categories: algorithms
+title: "Analysis of Algorithms"
+date: 2018-01-13 02:02:22
+description: "When we try to analysis an algorithm, we can follow those steps: The size of the input; How to calculate the run time of an algorithm; The Best Efficiency, the Worst Efficiency and the Average Efficiency."
+img: analysis-algorithms.jpg
+tags: [algorithms]
 ---
 
 ### What is analysis of algorithms?

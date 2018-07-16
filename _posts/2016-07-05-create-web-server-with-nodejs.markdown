@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "How to create a sample web server with Node.js quickly"
-date:   2016-07-05 14:32:48
-categories: server
+title: "Start sample web server with Node.js"
+date: 2016-07-05 14:32:48
+description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+img: nodejs-webserver.jpg
+tags: [web, nodejs]
 ---
 
 You can use Connect and ServeStatic with Node.js for this:

@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Programming Paradigms: Imperative Programming, Declarative Programming and Functional Programming"
-date:   2018-01-13
-categories: base
+title:  "Programming Paradigms"
+date:   2018-01-13 02:02:22
+description: "There are three main programming paradigms: Imperative programming, Declarative programming and Functional programming."
+img: programming-paradigms.jpg
+tags: [programming]
 ---
 
 #### There are three main programming paradigms: Imperative programming, Declarative programming and Functional programming.

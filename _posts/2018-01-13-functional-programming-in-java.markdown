@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Functional Programming in Java"
-date:   2018-01-13 12:13:00
-categories: java
+date: 2018-01-13 12:13:00
+description: "The big change in Java SE 8 is the best-known new feature: Lambda expression, it takes an effort to bring Java into the world of functional programming. It provide a clear and concise way to write the code."
+img: functional-javase8.png
+tags: [programming]
 ---
 
 The big change in Java SE 8 is the best-known new feature: Lambda expression, it takes an effort to bring Java into the world of functional programming.
