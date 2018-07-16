@@ -10,10 +10,11 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Cun Yang # add your name
-author-img: cun-yang.png # add your photo
+author-img: carl-yang.jpg # add your photo
 about-author: Hi! I’m Cun. Thanks for checking out my Blog. I am a Software Engineer with seven years programming experience, Now I am seeking for full-time opportunities at Austin, TX.  # add description
 social-twitter: backslash112 # add your Twitter handle
-social-facebook: backslash112 # add your Facebook handle
+# social-facebook: backslash112 # add your Facebook handle
+social-medium: backslash112 # add your Facebook handle
 social-github: backslash112 # add your Github handle
 social-linkedin: cun-yang # add your Linkedin handle
 social-email: cun.yang@outlook.com # add your Email address

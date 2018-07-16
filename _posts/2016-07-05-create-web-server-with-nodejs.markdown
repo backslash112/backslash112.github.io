@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Start sample web server with Node.js"
+title: "Start a sample web server with Node.js"
 date: 2016-07-05 14:32:48
 description: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 img: nodejs-webserver.jpg
