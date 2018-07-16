@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Welcome to My Programming Blog!"
+date:   2016-01-04 12:23:48
+categories: post
+---
+
+##### Update: 2018-01-13:
+
+Hi there, I'm Cun, from China, and now I'm living in America.
+
+I have **seven years programming experience**, now I am studying at an university to get my **masters degree in computer science**.<br>
+I know a lot of programming languages, like C#, Objective-C, Swift, Python and Java.<br>
+And I use those languages into the Windows software developing, Windows Phone application developing, iOS application developing and Robot(named Pepper) software developing.
+
+To finish my study, I am **seeking for full-time opportunities at San Francisco**. Available from June 2018.<br>
+Send me an email([cun.yang@outlook.com]) if your team need a new member with rich development experience.
+
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
+[Tomato! - Time Management Tool]: https://itunes.apple.com/app/id868078759
+[cun.yang@outlook.com]: mailto:cun.yang@outlook.com
