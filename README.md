@@ -1,18 +1,6 @@
 # Flexible-Jekyll is a simple and clean theme for Jekyll
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
-
-## Demo
-
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
-
-The main page would look like this:
-
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
-
-The post page would look like this:
-
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+https://cunyang.me
 
 ## Features
 
@@ -23,15 +11,19 @@ The post page would look like this:
 - Support Emoji
 
 ## Installation:
+```
+// Install dependencies
+docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:2.5 bundle install
 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+// Build website
+docker run --rm -v "$PWD:/srv/jekyll" -it jekyll/jekyll jekyll build
+docker commit a4703c61e03c jekyll/jekyll-gem
+docker run --rm -v "$PWD:/srv/jekyll" -it jekyll/jekyll-gem jekyll build
+
+// Run the website locally
+docker run -it --rm -p 4201:4201 -v "$PWD":/usr/src/app -w /usr/src/app node /bin/bash -c ' npm i http-server -g && http-server -p 4201'
+```
 
 ## License
 
 GNU General Public License v3.0
-
-## Donate
-
-<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
-<p>Either way, your support is a way to thank me ❤️</p>
-<p align="center"><b>Thank you for your support!</b></p>
