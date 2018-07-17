@@ -1,7 +1,14 @@
 ---
-layout: main
+layout: side-projects
+title:  "All my Side Projects"
+date:  2018-07-17 13:37
+description: The things that makes me happy and excited 😄.
+img: side-project.png
+tags: [side-project]
+weight: 100
 ---
-{% for post in paginator.posts %}
+{% assign projects = site.projects | sort: 'date' %}
+{% for post in projects reversed %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -19,4 +26,3 @@ layout: main
   </div>
 </article>
 {% endfor %}
-{% include pagination.html %}

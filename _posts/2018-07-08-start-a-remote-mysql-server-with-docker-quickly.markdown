@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Remote MySQL Server with Docker"
+title:  "Start a MySQL Server with Docker"
 date:  2018-07-08 09:09
 description: "MySQL is a freely available open-source relational database management system that uses SQL. Docker is an virtualization software that performs operating-system-level virtualization."
 img: docker-mysql.jpg

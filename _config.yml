@@ -1,8 +1,8 @@
 title: Cun Yang
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi! I’m Cun. Thanks for checking out my Blog. I am a Software Engineer with
+  seven years programming experience. Now I am seeking for full-time
+  opportunities at Austin, TX.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,7 +11,9 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Cun Yang # add your name
 author-img: carl-yang.jpg # add your photo
-about-author: Hi! I’m Cun. Thanks for checking out my Blog. I am a Software Engineer with seven years programming experience, Now I am seeking for full-time opportunities at Austin, TX.  # add description
+about-author: "Hi! I’m Cun. Thanks for checking out my Blog.
+  I am a Software Engineer with seven years programming experience.
+  Now I am seeking for full-time opportunities at Austin, TX."
 social-twitter: backslash112 # add your Twitter handle
 # social-facebook: backslash112 # add your Facebook handle
 social-medium: backslash112 # add your Facebook handle
@@ -36,3 +38,15 @@ paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+collections:
+  projects:
+    output: true
+    permalink: /side-projects/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: post
