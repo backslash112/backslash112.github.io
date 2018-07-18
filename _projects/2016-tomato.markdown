@@ -3,7 +3,8 @@ layout: post
 title:  "iOS App: Tomato!-Time Management Tool"
 date:  2016-05-19 09:09
 description: Tomato is an time management while study or work in iOS platform, with Tomato, you iPhone turns into a efficient time manager and helps you to accomplish more in a day.  
-img: side-project.png
+# img: side-project.png
+img: side-project/tomato/screenshot.png
 tags: [side-project, ios]
 ---
 
@@ -16,11 +17,11 @@ Creating a Timer is just as easy. You can choose from various timers to work wit
 
 Tomato! has a simple, yet beautiful and harmonious user interface. We want to provide the best experience of managing your time and helping you to be more efficient, and we will keep perfecting Tomato!.
 
-![screenshot](/assets/img/side-project/tomato/screenshot.png)
+<!-- ![screenshot](/assets/img/side-project/tomato/screenshot.png) -->
 
 
 **Source Code on GitHub**:<br>
-[https://github.com/MemoryMagic/MemoryMagic-React-Native](https://github.com/MemoryMagic/MemoryMagic-React-Native)
+[https://github.com/MemoryMagic/MemoryMagic-React-Native](https://github.com/MemoryMagic/MemoryMagic-React-Native){:target="_blank"}
 
 **Description on App Store**:<br>
-[https://appadvice.com/app/tomato-time-management-tool/868078759](https://appadvice.com/app/tomato-time-management-tool/868078759)
+[https://appadvice.com/app/tomato-time-management-tool/868078759](https://appadvice.com/app/tomato-time-management-tool/868078759){:target="_blank"}
