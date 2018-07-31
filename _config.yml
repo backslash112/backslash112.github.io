@@ -25,7 +25,7 @@ social-email: cun.yang@outlook.com # add your Email address
 discus-identifier: cunyang # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-123155497-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
