@@ -1,7 +1,7 @@
 title: Cun Yang
 description: > # this means to ignore newlines until "baseurl:"
   Hi! I’m Cun. Thanks for checking out my Blog. I am a Software Engineer with
-  seven years programming experience. Now I am seeking for full-time
+  6 years software engineering experience. Now I am seeking for full-time
   opportunities at Austin, TX.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,7 +12,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Cun Yang # add your name
 author-img: carl-yang.jpg # add your photo
 about-author: "Hi! I’m Cun. Thanks for checking out my Blog.
-  I am a Software Engineer with seven years programming experience.
+  I am a Software Engineer with 6 years software engineering experience.
   Now I am seeking for full-time opportunities at Austin, TX."
 social-twitter: backslash112 # add your Twitter handle
 # social-facebook: backslash112 # add your Facebook handle
