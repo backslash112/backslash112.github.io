@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: side-post
 title:  "iOS App: Tomato!-Time Management Tool"
 date:  2016-05-19 09:09
 description: Tomato is an time management while study or work in iOS platform, with Tomato, you iPhone turns into a efficient time manager and helps you to accomplish more in a day.  

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: side-post
 title:  "Web App: GlobalChat.online"
 date:  2018-07-08 09:49
 description: "GlobalChat.online is a web app written with MongoDB, Node.js, Express.js and Angular6."

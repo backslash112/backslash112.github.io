@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: side-post
 title:  "React-Native App: Magic Memory"
 date:  2016-06-19 09:09
 description: "The forgetting curve hypothesizes the decline of memory retention in time. Magic Memory will remind you to review your materials at certain best moments to achieve a better result of memory."
