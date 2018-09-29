@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "My Resume"
+date:  2018-09-28  
+description: "Update: Sep 28, 2018"
+img: resume.jpg
+
+---
+
+Hey! Thanks for checking out my Resume.<br/><br/>
+I have **6 years** experience in multiple platform (.Net, iOS, Python and Web).<br/>
+And I am living in Austin and now available for W-2 employment, <br/>
+I can work 40 hours per week(**full-time**) in the next **4 years** under **CPT** and **OPT**.<br/>
+
+Please find my resume for your consideration:<br/>
+
+**Download:**<br/>
+[docx version](https://cunyang.me/assets/file/CunYangResume.docx)<br/>
+[pdf version](https://cunyang.me/assets/file/CunYangResume.pdf)
