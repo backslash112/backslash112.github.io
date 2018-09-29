@@ -21,6 +21,7 @@ docker commit a4703c61e03c jekyll/jekyll-gem
 docker run --rm -v "$PWD:/srv/jekyll" -it jekyll/jekyll-gem jekyll build --watch --drafts
 
 // Run the website locally
+cd _site
 docker run -it --rm -p 4201:4201 -v "$PWD":/usr/src/app -w /usr/src/app node /bin/bash -c ' npm i http-server -g && http-server -p 4201'
 ```
 
