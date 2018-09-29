@@ -98,7 +98,7 @@ A React-Native app remind you to review your materials at certain best moments t
 * Launched final product to App Store in 1 month, and continuously updated to new version, finally accumulated 6788 downloaded users.
 
 
-### DUCATION
+### EDUCATION
 
 **Maharishi University of Management**, 2017 - 2020<br/>
 **Master of Science in Computer Science** <br/>
