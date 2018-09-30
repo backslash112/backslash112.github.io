@@ -56,7 +56,7 @@ Austin, TX<br/>
 * Cooperated with the Android team with ZeroMQ (messaging library) by sending messages to and from Android devices, helping the marketing team to sell three hi-tech robots immediately, earning $20,000 for the company.
 * Converted the robots who can't listen and speak at the same time to reach full duplex (listen and speak at the same time) based on logic cooperating with the hardware team, which boosted both sales and reputation.
 
-**BLUEFOCUS COMMUNICATION GROUP CO. LTD.**, Beijing, China, May 2015 - Apr 2016, **iOS Software Developer**
+**BLUEFOCUS COMMUNICATION GROUP CO. LTD.**, Beijing, China, May 2015 - Apr 2016, **Senior iOS Software Developer**
 * Implemented an iOS application independently based on Model View Controller (MVC) design pattern to provide social communication platform for anime fans, a project funded by the TOP 9 Global PR Agency: BlueFocus Communication Group.
 * Achieved custom UI components with Swift to enhance the users’ search speed of choosing time period by 90%. Shared several custom UI components on GitHub and got more than 40 stars.
 * Attained multiple view controller within one file based on Storyboard to save time building users interface.
