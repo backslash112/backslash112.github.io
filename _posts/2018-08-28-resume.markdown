@@ -50,7 +50,7 @@ Austin, TX<br/>
 
 ### WORK EXPERIENCE
 
-**AXM TECHNOLOGY CO., LTD.**, Shenzhen, China, FEB 2017 - SEP 2017, **Python Developer**
+**AXM TECHNOLOGY CO., LTD.**, Shenzhen, China, FEB 2017 - SEP 2017, **Robot Software Engineer (Python)**
 * Developed built-in software for Japanese SoftBank robot (named Pepper) based on Python language and NAOqi OS (Linux-based), which is used by the world's second largest bank:  China Construction Bank and the world's largest energy company:  State Grid.
 * Formulated a script in 2 weeks to control robots remotely based on Python instead of deploying robots on site which saved a lot traveling time of colleagues. Improved the efficiency further by 83% based on Ansible to reduce the remote deployment time from 30 minutes to 5 minutes of each robot.
 * Cooperated with the Android team with ZeroMQ (messaging library) by sending messages to and from Android devices, helping the marketing team to sell three hi-tech robots immediately, earning $20,000 for the company.
