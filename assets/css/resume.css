@@ -1,0 +1,22 @@
+.work-ex-container {
+
+}
+
+.work-ex-container > div {
+  margin-top: 10px;
+}
+
+
+#container h4{
+  text-align: center;
+  /* text-decoration: underline; */
+  margin-bottom: -5px;
+}
+
+#container span {
+  float: right;
+}
+
+#contact-info {
+  text-align: center;
+}

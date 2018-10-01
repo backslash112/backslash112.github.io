@@ -1,124 +1,99 @@
 ---
 layout: post
-title:  "My Resume"
+title:  "CUN YANG"
 date:  2018-09-28  
 description: "Update: Sep 28, 2018"
 img: resume.jpg
 
 ---
+<div id="container">
+<p id="contact-info">Simond Ave Austin, TX • Phone: 512-284-3424 • Email: <a href="mailto:cun.yang@outlook.com">cun.yang@outlook.com</a></p>
+<hr />
+
+
+<ul>
+<li>
+  <b>6+</b> Years Software Engineering Experience in multiple platform (Python, iOS and .Net)
+</li>
+<li>
+  Languages: <b>Python</b>, <b>Swift</b>, Objective-C, <b>C#</b>, Shell Script (Unix shell)
+</li>
+<li>
+  Tool: <b>Docker</b>, Ansible, Supervisor, <b>Travis CI</b>
+</li>
+<li>
+  Database: MySQL, SQLite, MS SQL Server, MongoDB
+</li>
+<li>
+  Web: jQuery, CSS Layout, Bootstrap, Angular, Node.js, Rest API
+</li>
+</ul>
+
+<div class="work-ex-container">
+  <h4>WORK EXPERIENCE</h4>
+<hr />
+
+<div>
+   <b>Robot Software Engineer (Python)</b> at AXM                                                                              <span>Feb 2017 - Sep 2017</span>
+
+   <ul>
+    <li>
+  Developed built-in software for Japanese SoftBank robot (named Pepper) based on <b>Python</b> and NAOqi OS (<b>Linux-based</b>), which is used by the world's second largest bank:  China Construction Bank and the world's largest energy company:  State Grid.
+</li>
+<li>
+  Formulated an automation script in 2 weeks to control robots remotely based on <b>Ansible</b> instead of deploying robots on site which saved a lot traveling time of colleagues. Improved the efficiency further by 83% based on Ansible to reduce the remote deployment time from 30 minutes to 5 minutes of each robot.
+  </li>
+  <li>
+  Cooperated with the Android team with <b>ZeroMQ</b> (messaging library) by sending messages to and from Android devices, helping the marketing team to sell three hi-tech robots immediately, earning $20,000 for the company.
+  </li>
+  </ul>
+
+</div>
+
+  <div>
+
+  <b>iOS Software Engineer</b> at BLUEFOCUS                                                                                   <span>May 2015 - Apr 2016</span>
+  <ul>
+  <li>
+  Implemented an iOS application independently based on <b>MVC</b> to provide social communication platform for anime fans, a project funded by the TOP 9 Global PR Agency: BlueFocus Communication Group.
+  </li>
+  <li>
+  Achieved custom UI components with Swift to enhance the users’ search speed of choosing time period by 90%. Shared several custom UI components on GitHub and got more than 40 stars.
+  </li>
+  </ul>
+</div>
+
+  <div>
+  <b>iOS Software Engineer</b> at CROSSMO                                                                                      <span>May 2013 - May 2015</span>
+  <ul>
+  <li>
+  Coded modules for the iOS application based on Objective-C, <b>Swift</b>, Interface Builder, Storyboard, Apple Watch, SQLite, CocoaPods, MVC.
+  </li>
+  </ul>
+</div>
+
+  <div>
+  <b>.NET Software Engineer</b> at BANCLOGIX                                                                                 <span>Jun 2011 - May 2013</span>
+  <ul>
+  <li>
+  Customized a foreign exchange online trading platform based on <b>.NET</b> and <b>C#</b> for client:  China CITIC Bank (China’s seventh-largest lender in terms of total assets).
+  </li>
+  </ul>
+</div>
+
+</div>
+
+<div class="edu-container">
+
+
+  <h4>EDUCATION</h4>
+  <hr />
+  <b>Master of Science in Computer Science</b> at Maharishi University of Management                                  <span>2017 - 2020</span>
+  <br/>
+  Fairfield, IOWA, US
+</div>
+
 <div style="text-align: right" markdown="1">
 download: [CunYangResume.docx](https://cunyang.me/assets/file/CunYangResume.docx) or [CunYangResume.pdf](https://cunyang.me/assets/file/CunYangResume.pdf)
 </div>
-
-
-
-
-Hey! Thanks for checking out my Resume.<br/><br/>
-I have **6 years** experience in multiple platform (.Net, iOS, Python and Web).<br/>
-And I am living in Austin and now available for W-2 employment, <br/>
-I can work 40 hours per week (**full-time**) in the next **4 years** under **CPT** and **OPT**.<br/>
-
-
-### CUN YANG
-Austin, TX<br/>
-[cun.yang@outlook.com](mailto:cun.yang@outlook.com) <br/>
-+1 (512) 284-3424
-
-### SUMMARY
-
-* 6 Years Software Engineering Experience (3-year in .NET, 2-year in iOS and 1-year in Python)
-* 3 One-person Side Projects:
-1. A full Web application with MEAN stack (MongoDB, Express.js, Angular and Node.js) [GitHub](https://github.com/globalchat-online)
-2. An iOS application with 55661 downloaded [GitHub](https://github.com/tomatoapp)
-3. A React Native application with 6788 downloaded [GitHub](https://github.com/MemoryMagic)
-* Master’s Degree in CS with 1073 contributions on GitHub in past one year ([GitHub](https://github.com/backslash112))
-
-
-### TECHNICAL SKILLS
-
-* Tool: **Docker**, Vim, **Git** and GitHub (especially solutions for code conflicts in teamwork), Data Structure, Algorithm
-* Languages: **JavaScript**, TypeScript, **Python**, **Swift**, Objective-C, **C#**, **Java**, C++, C, Scala, Shell Script (Unix shell)
-* Mobile: iOS, React Native, Windows Phone
-* Web: Ajax, jQuery, HTML, CSS, Bootstrap, **Angular**, Angular Material, HTTPS, **Node.js**, Express.js, **Django**, Servlet, Socket.IO, **Rest API**
-* Big Data: Spark, Hadoop, MapReduce
-* Testing: Python unittest, Mocha, **TDD**
-* Cloud Server: Microsoft Azure, AWS, DigitalOcean
-* Development and Deployment: **Ansible**, Supervisor, SSH, Ubuntu, **Docker**, **Travis CI**, Kanban, **Scrum**
-* Design: Design Pattern, Functional Programming, Reactive Programming, MVC, MVVM
-* Database: Database Design, Relational database, **MySQL**, SQLite, MS SQL Server, NoSQL, **MongoDB**
-
-
-### WORK EXPERIENCE
-
-**AXM TECHNOLOGY CO., LTD.**, Shenzhen, China, FEB 2017 - SEP 2017, **Robot Software Engineer (Python)**
-* Developed built-in software for Japanese SoftBank robot (named Pepper) based on Python language and NAOqi OS (Linux-based), which is used by the world's second largest bank:  China Construction Bank and the world's largest energy company:  State Grid.
-* Formulated a script in 2 weeks to control robots remotely based on Python instead of deploying robots on site which saved a lot traveling time of colleagues. Improved the efficiency further by 83% based on Ansible to reduce the remote deployment time from 30 minutes to 5 minutes of each robot.
-* Cooperated with the Android team with ZeroMQ (messaging library) by sending messages to and from Android devices, helping the marketing team to sell three hi-tech robots immediately, earning $20,000 for the company.
-* Converted the robots who can't listen and speak at the same time to reach full duplex (listen and speak at the same time) based on logic cooperating with the hardware team, which boosted both sales and reputation.
-
-**BLUEFOCUS COMMUNICATION GROUP CO. LTD.**, Beijing, China, May 2015 - Apr 2016, **Senior iOS Software Developer**
-* Implemented an iOS application independently based on Model View Controller (MVC) design pattern to provide social communication platform for anime fans, a project funded by the TOP 9 Global PR Agency: BlueFocus Communication Group.
-* Achieved custom UI components with Swift to enhance the users’ search speed of choosing time period by 90%. Shared several custom UI components on GitHub and got more than 40 stars.
-* Attained multiple view controller within one file based on Storyboard to save time building users interface.
-* Restructured the app which was programmed by Objective-C based on Swift, CocoaPods and SQLite to improve the control speed by 20% with higher efficiency and simpler grammar.
-
-**BEIJING CROSSMO TECHNOLOGY**, Beijing, China, May 2013 - May 2015, **iOS Software Engineer**
-* Delivered a social communication Window Phone application based on .Net, C#, Windows Phone Toolkit, MVVM, Visual Studio 2010 for game fans, which attracts over 5000 users.
-* Coded modules for the iOS application based on Objective-C, Swift, Interface Builder, Storyboard, Apple Watch, SQLite, CocoaPods, MVC design pattern, GitHub.
-
-**BANCLOGIX SYSTEM CO., LTD.**, Beijing, China, Jun 2011 - May 2013, **.NET Software Engineer**
-* Customized a foreign exchange online trading platform based on .NET and C# for client:  China CITIC Bank (China’s seventh-largest lender in terms of total assets).
-* Succeeded deliver the platform in 15 months based on C#, SQL Server, **WCF**, **WPF**, TFS, SVN, Visual Studio 2010, creating 3.5 million turnovers for the company.
-* Awarded the 2012’s Most Improved Employee with about $2,000 bonus.
-
-
-### SIDE PROJECT
-
-**Global Chat (one-person project)** [GitHub](https://github.com/globalchat-online)<br/>
-A full Web application programmed with MEAN stack (MongoDB, Node.js, Express.js and Angular) to make people from different language backgrounds chat instantly.
-* Stored users' chat information with MongoDB
-* Implemented **Rest API** with Express.js
-* Achieved live chat by **Socket.io**
-* SSL enabled HTTP secure connection
-* Generated user authorization with **JWT** (JSON Web Token)
-* Unit testing with Mocha
-* Implemented the front end with Angular and Angular material
-* Customized custom validation implements asynchronous mailbox validation
-* Formed continuous automated unit testing and integrated deployment with GitHub, Docker, and TravisCI.
-
-**Tomato (one-person project)** [GitHub](https://github.com/tomatoapp)<br/>
-An iOS app used as an efficient time manager.
-* Launched final product to App Store in 2 months and continuously updated to 2.2 version in 10 months, finally accumulated 55661 downloaded users.
-* Stored tasks list and tomato numbers with **SQLite3** and FMDatabase.
-* Displayed Chart information with JBChartView library.
-* Upgraded to full version by applying in-app purchase function, earning 60 dollars.
-
-**Magic Memory (one-person project)** [GitHub](https://github.com/MemoryMagic)<br/>
-A React-Native app remind you to review your materials at certain best moments to achieve a better result of memory.
-* Launched final product to App Store in 1 month, and continuously updated to new version, finally accumulated 6788 downloaded users.
-
-
-### EDUCATION
-
-**Maharishi University of Management**, 2017 - 2020<br/>
-**Master of Science in Computer Science** <br/>
-(In progress via distance education; immediately for **W-2 full-time** employment, expected completion June 20, 2020)<br/>
-Fairfield, IOWA, US
-
-**Hebei Software Institute**, 2009 - 2012<br/>
-**Bachelor's Degree in Computer Technology**<br/>
-Baoding, Hebei, China
-
-
-### REFERENCES
-<ul>
-<li class="linkedin">
-  LinkedIn: <a href="https://www.linkedin.com/in/cun-yang">https://www.linkedin.com/in/cun-yang</a>
-</li>
-<li class="linkedin">
-  Download the docx version of resume: <a href="https://cunyang.me/assets/file/CunYangResume.docx">CunYangResume.docx</a>
-</li>
-<li class="linkedin">
-  Download the pdf version of resume: <a href="https://cunyang.me/assets/file/CunYangResume.pdf">CunYangResume.pdf</a>
-</li>
-</ul>
+</div>
