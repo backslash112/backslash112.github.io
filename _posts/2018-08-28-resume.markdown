@@ -12,29 +12,19 @@ img: resume.jpg
 
 
 <ul>
-<li>
-  <b>6+</b> Years Software Engineering Experience in multiple platform (Python, iOS and .Net)
-</li>
-<li>
-  Languages: <b>Python</b>, <b>Swift</b>, Objective-C, <b>C#</b>, Shell Script (Unix shell)
-</li>
-<li>
-  Tool: <b>Docker</b>, Ansible, Supervisor, <b>Travis CI</b>
-</li>
-<li>
-  Database: MySQL, SQLite, MS SQL Server, MongoDB
-</li>
-<li>
-  Web: jQuery, CSS Layout, Bootstrap, Angular, Node.js, Rest API
-</li>
+  <li><b>Languages</b>: Python, Swift, Objective-C, C#, Shell Script (Unix shell)</li>
+  <li><b>Tool</b>: Docker, Travis CI, Git, Vim, Ansible, Supervisor</li>
+  <li><b>Database</b>: Database Design, MySQL, SQLite3, MS SQL, MongoDB</li>
+  <li><b>Web</b>: Angular, Node.js, jQuery, CSS Layout, Bootstrap, Rest API, JSON</li>
+  <li><b>System</b>: Ubuntu, macOS, NAOqi (Linux-base)</li>
 </ul>
 
 <div class="work-ex-container">
-  <h4>WORK EXPERIENCE</h4>
+  <h4>Work Experience</h4>
 <hr />
 
 <div>
-   <b>Robot Software Engineer (Python)</b> at AXM                                                                              <span>Feb 2017 - Sep 2017</span>
+   <b>Robot Software Engineer (Python)</b> at AXM <span><i>Feb 2017 - Sep 2017</i></span>
 
    <ul>
     <li>
@@ -50,9 +40,21 @@ img: resume.jpg
 
 </div>
 
-  <div>
 
-  <b>iOS Software Engineer</b> at BLUEFOCUS                                                                                   <span>May 2015 - Apr 2016</span>
+<div>
+
+<b>Senior Software Engineer (Python, Django)</b>  at XinliReading <span><i>April 2016 - Feb 2017</i></span>
+
+<ul>
+<li>
+Developed an online book-reading website for people who are interested in reading the same books, allow the users to share their notes and impressions with other readers, using Python, Django 1.9, SQLite3, HTML5, Bootstrap and Apache.
+</li>
+</ul>
+</div>
+
+<div>
+
+  <b>Senior iOS Software Engineer</b> at BLUEFOCUS <span><i>May 2015 - Apr 2016</i></span>
   <ul>
   <li>
   Implemented an iOS application independently based on <b>MVC</b> to provide social communication platform for anime fans, a project funded by the TOP 9 Global PR Agency: BlueFocus Communication Group.
@@ -64,7 +66,7 @@ img: resume.jpg
 </div>
 
   <div>
-  <b>iOS Software Engineer</b> at CROSSMO                                                                                      <span>May 2013 - May 2015</span>
+  <b>iOS Software Engineer</b> at CROSSMO <span><i>May 2013 - May 2015</i></span>
   <ul>
   <li>
   Coded modules for the iOS application based on Objective-C, <b>Swift</b>, Interface Builder, Storyboard, Apple Watch, SQLite, CocoaPods, MVC.
@@ -73,7 +75,7 @@ img: resume.jpg
 </div>
 
   <div>
-  <b>.NET Software Engineer</b> at BANCLOGIX                                                                                 <span>Jun 2011 - May 2013</span>
+  <b>.NET Software Engineer & Intern</b> at BANCLOGIX <span><i>Jun 2011 - May 2013</i></span>
   <ul>
   <li>
   Customized a foreign exchange online trading platform based on <b>.NET</b> and <b>C#</b> for client:  China CITIC Bank (China’s seventh-largest lender in terms of total assets).
@@ -83,12 +85,49 @@ img: resume.jpg
 
 </div>
 
+<div class="work-ex-container">
+<h4>Personal Side Projects</h4>
+<hr/>
+</div>
+
+<div>
+<b>Global Chat (JavaScript, Node.js, MongoDB, Angular2)</b> <a href="">GitHub</a><br/>
+A full Web application programmed with MEAN stack (MongoDB, Node.js, Express.js and Angular) to make people from different language backgrounds chat instantly.
+<ul>
+<li>Implemented Rest API with Express.js, stored users' chat information with MongoDB</li>
+<li>Achieved live chat by Socket.io, enable HTTPS secure connection with SSL</li>
+<li>Generated user authorization with JWT (JSON Web Token)</li>
+<li>Implemented the front end with Angular and Angular material</li>
+<li>Customized custom validation implements asynchronous mailbox validation</li>
+<li>Unit testing with Mocha</li>
+<li>Formed continuous automated unit testing and integrated deployment with GitHub, Docker, and TravisCI.</li>
+</ul>
+</div>
+
+<div>
+<b>Tomato (iOS)</b> <a href="">GitHub</a><br/>
+An iOS app used as an efficient time manager tool.
+<ul>
+<li>Launched final product to App Store in 2 months and continuously updated to 2.2 version in 10 months, finally accumulated 55661 downloaded users.</li>
+<li>Designed the database tables and stored data with FMDatabase.</li>
+<li>Implemented the Chart view with JBChartView library, upgraded to premium version by applying in-app purchase function, earning 60 dollars.</li>
+</ul>
+</div>
+
+<div>
+<b>Magic Memory (iOS, React Native)</b><br/>
+A React-Native app remind you to review your materials at certain best moments to achieve a better result of memory.
+<ul>
+<li>Launched final product to App Store in 1 month, and continuously updated to new version, finally accumulated 6788 downloaded users.</li>
+</ul>
+</div>
+
 <div class="edu-container">
 
 
-  <h4>EDUCATION</h4>
+  <h4>Education</h4>
   <hr />
-  <b>Master of Science in Computer Science</b> at Maharishi University of Management                                  <span>2017 - 2020</span>
+  <b>Master of Science in Computer Science</b> at Maharishi University of Management <span><i>2017 - 2020</i></span>
   <br/>
   Fairfield, IOWA, US
 </div>
