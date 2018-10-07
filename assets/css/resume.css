@@ -20,3 +20,8 @@
 #contact-info {
   text-align: center;
 }
+
+#skill-list b {
+  width: 220px;
+  float: left;
+}

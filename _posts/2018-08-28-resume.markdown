@@ -11,12 +11,12 @@ img: resume.jpg
 <hr />
 
 
-<ul>
-  <li><b>Languages</b>: Python, Swift, Objective-C, C#, Shell Script (Unix shell)</li>
-  <li><b>Tool</b>: Docker, Travis CI, Git, Vim, Ansible, Supervisor</li>
-  <li><b>Database</b>: Database Design, MySQL, SQLite3, MS SQL, MongoDB</li>
-  <li><b>Web</b>: Angular, Node.js, jQuery, CSS Layout, Bootstrap, Rest API, JSON</li>
-  <li><b>System</b>: Ubuntu, macOS, NAOqi (Linux-base)</li>
+<ul id="skill-list">
+  <li><b>Languages:</b> Python, Swift, Objective-C, C#, Shell Script (Unix shell)</li>
+  <li><b>Tool:</b> Docker, Travis CI, Git, Vim, Ansible, Supervisor</li>
+  <li><b>Database:</b> Database Design, MySQL, SQLite3, MS SQL, MongoDB</li>
+  <li><b>Web:</b> Angular, Node.js, jQuery, CSS Layout, Bootstrap, Rest API, JSON</li>
+  <li><b>System:</b> Ubuntu, macOS, NAOqi (Linux-base)</li>
 </ul>
 
 <div class="work-ex-container">
