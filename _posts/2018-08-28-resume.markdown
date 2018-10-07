@@ -115,7 +115,7 @@ An iOS app used as an efficient time manager tool.
 </div>
 
 <div>
-<b>Magic Memory (iOS, React Native)</b><a href="https://github.com/MemoryMagic">GitHub</a><br/>
+<b>Magic Memory (iOS, React Native)</b> <a href="https://github.com/MemoryMagic">GitHub</a><br/>
 A React-Native app remind you to review your materials at certain best moments to achieve a better result of memory.
 <ul>
 <li>Launched final product to App Store in 1 month, and continuously updated to new version, finally accumulated 6788 downloaded users.</li>
