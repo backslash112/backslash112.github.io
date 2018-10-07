@@ -2,7 +2,7 @@
 layout: post
 title:  "CUN YANG"
 date:  2018-09-28  
-description: "Update: Sep 28, 2018"
+description: "My latest Resume, update at Oct 7, 2018"
 img: resume.jpg
 
 ---
