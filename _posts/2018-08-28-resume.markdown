@@ -91,7 +91,7 @@ Developed an online book-reading website for people who are interested in readin
 </div>
 
 <div>
-<b>Global Chat (JavaScript, Node.js, MongoDB, Angular2)</b> <a href="">GitHub</a><br/>
+<b>Global Chat (JavaScript, Node.js, MongoDB, Angular2)</b> <a href="https://github.com/globalchat-online">GitHub</a><br/>
 A full Web application programmed with MEAN stack (MongoDB, Node.js, Express.js and Angular) to make people from different language backgrounds chat instantly.
 <ul>
 <li>Implemented Rest API with Express.js, stored users' chat information with MongoDB</li>
@@ -105,7 +105,7 @@ A full Web application programmed with MEAN stack (MongoDB, Node.js, Express.js 
 </div>
 
 <div>
-<b>Tomato (iOS)</b> <a href="">GitHub</a><br/>
+<b>Tomato (iOS)</b> <a href="https://github.com/tomatoapp">GitHub</a><br/>
 An iOS app used as an efficient time manager tool.
 <ul>
 <li>Launched final product to App Store in 2 months and continuously updated to 2.2 version in 10 months, finally accumulated 55661 downloaded users.</li>
@@ -115,7 +115,7 @@ An iOS app used as an efficient time manager tool.
 </div>
 
 <div>
-<b>Magic Memory (iOS, React Native)</b><br/>
+<b>Magic Memory (iOS, React Native)</b><a href="https://github.com/MemoryMagic">GitHub</a><br/>
 A React-Native app remind you to review your materials at certain best moments to achieve a better result of memory.
 <ul>
 <li>Launched final product to App Store in 1 month, and continuously updated to new version, finally accumulated 6788 downloaded users.</li>
@@ -123,8 +123,6 @@ A React-Native app remind you to review your materials at certain best moments t
 </div>
 
 <div class="edu-container">
-
-
   <h4>Education</h4>
   <hr />
   <b>Master of Science in Computer Science</b> at Maharishi University of Management <span><i>2017 - 2020</i></span>
