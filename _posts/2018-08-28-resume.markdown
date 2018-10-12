@@ -40,7 +40,7 @@ img: resume1.jpg
 
 </div>
 
-
+<!-- 
 <div>
 
 <b>Senior Software Engineer (Python, Django)</b>  at XinliReading <span><i>April 2016 - Feb 2017</i></span>
@@ -50,7 +50,7 @@ img: resume1.jpg
 Developed an online book-reading website for people who are interested in reading the same books, allow the users to share their notes and impressions with other readers, using Python, Django 1.9, SQLite3, HTML5, Bootstrap and Apache.
 </li>
 </ul>
-</div>
+</div> -->
 
 <div>
 
