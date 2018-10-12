@@ -7,7 +7,7 @@ img: resume1.jpg
 
 ---
 <div id="container">
-<p id="contact-info">Simond Ave Austin, TX • Phone: 512-284-3424 • Email: <a href="mailto:cun.yang@outlook.com">cun.yang@outlook.com</a></p>
+<p id="contact-info">Dallas, Texas • Email: <a href="mailto:cun.yang@outlook.com">cun.yang@outlook.com</a></p>
 <hr />
 
 
@@ -130,7 +130,7 @@ A React-Native app remind you to review your materials at certain best moments t
   Fairfield, IOWA, US
 </div>
 
-<div style="text-align: right" markdown="1">
+<!-- <div style="text-align: right" markdown="1">
 download: [CunYangResume.docx](https://cunyang.me/assets/file/CunYangResume.docx) or [CunYangResume.pdf](https://cunyang.me/assets/file/CunYangResume.pdf)
-</div>
+</div> -->
 </div>
