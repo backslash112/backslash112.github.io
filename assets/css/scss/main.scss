@@ -149,3 +149,37 @@ table tfoot td {
 @import 'media';
 
 
+.nav {
+  list-style-type: none;
+  margin-right: 41px;
+  justify-content: center;
+  display: flex;
+}
+
+ul.nav li {
+  width: 65px;
+  float: left;
+  height: 15px;
+  padding: 0px 5px;
+  line-height: 15px;  /* Center the a tag inside the li tag */
+}
+
+ul.nav li {
+  border-right:1px solid #21353F;
+}
+
+ul.nav li:last-child {
+  padding-left: 5px;
+  border-width: 0px;
+}
+
+ul.nav a {
+  text-decoration: none;  /* Remove the underline of the link */
+}
+
+ul.nav a:link, a:visited {
+  color:#21353F;
+}
+ul.nav a:hover {
+  color: #4b4b4b;
+}

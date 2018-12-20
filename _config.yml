@@ -1,6 +1,6 @@
 title: Cun Yang
 description: > # this means to ignore newlines until "baseurl:"
-  Hi! I’m Cun. Thanks for checking out my Blog. Now I am focusing on Node.js, AWS, and CI/CD with Docker.
+  Hi! I’m Cun. Thanks for checking out my Blog. Now I am focusing on Node.js with Amazon AWS
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,7 +10,7 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Cun Yang # add your name
 author-img: carl-yang.jpg # add your photo
 about-author: "Hi! I’m Cun. Thanks for checking out my Blog.
-  Now I am focusing on Node.js, AWS, and CI/CD with Docker"
+  Now I am focusing on Node.js with Amazon AWS"
 social-twitter: backslash112 # add your Twitter handle
 # social-facebook: backslash112 # add your Facebook handle
 social-medium: backslash112 # add your Facebook handle

@@ -23,7 +23,7 @@ statement_timeout = 0
 
 ### Step 2: Create the logical replication slot
 Connect to the database instance and run the following SQL statement
-```
+```sql
 SELECT * FROM pg_create_logical_replication_slot('test_slot', 'test_decoding');
 ```
 
@@ -31,11 +31,11 @@ SELECT * FROM pg_create_logical_replication_slot('test_slot', 'test_decoding');
 By default, when you create a data table by CREATE TABLE statement, the table will enable the log.
 If you don't want to enable the logs by default, you can use CREATE UNLOGGED TABLE statement.
 If you want to disable the logs for a specific table, you can run the following statement:
-```
+```sql
 ALTER TABLE <table name> SET UNLOGGED;
 ```
 To enable the logs, run
-```
+```sql
 ALTER TABLE <table name> SET LOGGED;
 ```
 
