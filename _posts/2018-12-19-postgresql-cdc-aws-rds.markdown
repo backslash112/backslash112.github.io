@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Set up CDC(Change Data Capture) of PostgreSQL with AWS RDS"
+title:  "Change Data Capture in PostgreSQL at AWS RDS"
 date:  2018-12-19 20:01
-description: "In databases, Change Data Capture is a way to track the change of the data from the database."
+description: "Change Data Capture is a way to track the change of the data from the database."
 img: aws-rds-pgsql.png 
 tags: [AWS, PostgreSQL, db]
 ---
