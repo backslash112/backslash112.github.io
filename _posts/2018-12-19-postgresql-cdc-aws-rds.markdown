@@ -16,7 +16,7 @@ Beginning with PostgreSQL version 9.4, PostgreSQL supports the streaming of WAL 
 
 ### Step 1: Create a new parameter group with
 ```
-rds.logical_replication=1 
+rds.logical_replication = 1 
 wal_sender_timeout = 0
 statement_timeout = 0
 ```
