@@ -28,5 +28,8 @@ A 16-vCPU instance can handle about 200K per second inserting, that means at thi
 But if you have a higher rate of data to handle, the value of `Sessions` will become a number greater that `16`. For example `18`, at this situation, the bar will become red and your task will become slow, this means `16` cocurrent threads are not enough to handle all the tasks, there are `2` tasks must be wait for other tasks to finish.
 
 ### References
+- [https://dba.stackexchange.com/a/71304](https://dba.stackexchange.com/a/71304)
 - [https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html)
 - [https://www.slideshare.net/AmazonWebServices/using-performance-insights-to-optimize-database-performance-dat402-aws-reinvent-2018](https://www.slideshare.net/AmazonWebServices/using-performance-insights-to-optimize-database-performance-dat402-aws-reinvent-2018)
+- [https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-optimize-cpu.html](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-optimize-cpu.html)
+- [https://aws.amazon.com/ec2/physicalcores/](https://aws.amazon.com/ec2/physicalcores/)
