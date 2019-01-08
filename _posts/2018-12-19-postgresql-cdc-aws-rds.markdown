@@ -3,7 +3,7 @@ layout: post
 title:  "CDC (Change Data Capture) in PostgreSQL at AWS RDS"
 date:  2018-12-19 20:01
 description: "Change Data Capture is a way to track the change of the data from the database."
-img: aws-rds-pgsql.png 
+img: aws-rds-pgsql.png
 tags: [AWS, PostgreSQL, db]
 ---
 
@@ -12,11 +12,11 @@ In databases, Change Data Capture is a way to track the change of the data from 
 In PostgreSQL, we can enable the CDC via logical replication.
 
 ### PostgreSQL in Amazon AWS RDS
-Beginning with PostgreSQL version 9.4, PostgreSQL supports the streaming of WAL changes using logical replication decoding. Amazon RDS supports logical replication for PostgreSQL version 9.4.9 and higher and 9.5.4 and higher. 
+Beginning with PostgreSQL version 9.4, PostgreSQL supports the streaming of WAL changes using logical replication decoding. Amazon RDS supports logical replication for PostgreSQL version 9.4.9 and higher and 9.5.4 and higher.
 
 ### Step 1: Create a new parameter group with
 ```
-rds.logical_replication = 1 
+rds.logical_replication = 1
 wal_sender_timeout = 0
 statement_timeout = 0
 ```
@@ -41,3 +41,12 @@ ALTER TABLE <table name> SET LOGGED;
 
 ### Step 4: Listen to the change of data
 In Node.js, use https://www.npmjs.com/package/pg-logical-replication
+
+
+### Important PostgreSQL WAL space out of control (Update: Jan 8, 2019)
+Please make sure to delete the slot when you don't need it anymore. If not, you will get a high disk alarm or STORAGE_FULL error.
+
+The reason is when you create a slot, PostgreSQL will records the WAL logs and keep all of them. And since there is no one consume the logs, then the WAL logs will getting larger and larger.
+
+### References
+  - [PostgreSQL WAL space out of control? Check your slots...](https://www.couyon.net/blog/postgresql-wal-space-out-of-control-check-your-slots)
