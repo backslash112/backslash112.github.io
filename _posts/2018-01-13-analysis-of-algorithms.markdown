@@ -24,7 +24,7 @@ Early in the computer age, the time and the space, those two resources are both 
 
 When we try to analysis an algorithm, we can follow those steps:
 
-## Step 1: the size of the input
+### Step 1: the size of the input
 Firstly, we need figure out what's the size of the input, the parameter, in other words, how big of the problem we trying to solve?<br>
 Start with here because there is a general rule, no matter which algorithm you are using, larger size of the input will cost longer time to invoke.<br>
 The size of the input depends on the particular problem, the same input can be different in different situations. For example an algorithm for spell checking.<br>
@@ -32,7 +32,7 @@ If you focus on each word, then the length of the input just the size of the inp
 But if you focus on the phrase, then the size of the input will becoming smaller.<br>
 
 
-## Step 2: How to calculate the run time of an algorithm?
+### Step 2: How to calculate the run time of an algorithm?
 And the second step is to calculate the speed of an algorithm.<br>
 You can simply using a stopwatch to find out how much time an algorithm spend while running.<br>
 But there is a big problem is when you invoke the same algorithm on another computer, you will get a different result. It depends on the performance of the computer.<br>
@@ -41,7 +41,7 @@ The answer is YES.<br>
 We can calculate **how many steps it invoked**, to make it more simple, we can only focus on the most important operation, which called "Basic Operation".
 
 
-## Step 3: The Best Efficiency, the Worst Efficiency and the Average Efficiency
+### Step 3: The Best Efficiency, the Worst Efficiency and the Average Efficiency
 Sometimes, the efficiency of an algorithm depends on the details of the input.<br>
 For example a simple searching algorithm, let's say to find the number 9 from the list sequentially.<br>
 We have two lists, which are:

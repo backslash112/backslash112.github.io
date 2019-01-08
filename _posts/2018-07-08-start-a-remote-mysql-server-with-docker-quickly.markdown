@@ -16,7 +16,7 @@ With Docker, you can easily launch containers based on images that contain diffe
 You could create as many container as you want on the host machine, and each of the container are isolated from one another.
 Also, each docker images are version controlled.
 
-## Step 1: Get the docker image of MySQL
+### Step 1: Get the docker image of MySQL
 You can search what you want from the https://hub.docker.com/ .
 In this tutorial, I will use the first one: mysql/mysql-server.
 Here is the command to down the image from the server to your local machine:
@@ -31,7 +31,7 @@ docker images
 ```
 
 
-## Step 2: Start running a docker container from MySQL image
+### Step 2: Start running a docker container from MySQL image
 Now, you can start a mysql-server instance with the docker run command:
 ```shell
 docker run - name=mysql1 -d mysql/mysql-server
