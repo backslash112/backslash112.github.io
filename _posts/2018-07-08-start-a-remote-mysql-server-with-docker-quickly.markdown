@@ -7,7 +7,7 @@ img: docker-mysql.jpg
 tags: [docker, system, db]
 ---
 
-### Take a quick glance at MySQL and Docker
+## Take a quick glance at MySQL and Docker
 MySQL is a freely available open-source relational database management system that uses SQL.
 Docker is an virtualization software that performs operating-system-level virtualization.
 Unlike traditional VM, docker doesn't take up a lot of space, memory and processing power.
@@ -16,7 +16,7 @@ With Docker, you can easily launch containers based on images that contain diffe
 You could create as many container as you want on the host machine, and each of the container are isolated from one another.
 Also, each docker images are version controlled.
 
-### Step 1: Get the docker image of MySQL
+## Step 1: Get the docker image of MySQL
 You can search what you want from the https://hub.docker.com/ .
 In this tutorial, I will use the first one: mysql/mysql-server.
 Here is the command to down the image from the server to your local machine:
@@ -31,7 +31,7 @@ docker images
 ```
 
 
-### Step 2: Start running a docker container from MySQL image
+## Step 2: Start running a docker container from MySQL image
 Now, you can start a mysql-server instance with the docker run command:
 ```shell
 docker run - name=mysql1 -d mysql/mysql-server
@@ -48,7 +48,7 @@ docker run - name=mysql1 -e MYSQL_ROOT_HOST=% -p 3306:3306 -d mysql/mysql-se
 ```
 
 
-### Step 3: Connecting to the MySQL Server instance
+## Step 3: Connecting to the MySQL Server instance
 Since it's already running, you can connect to it with the docker exec command:
 ```shell
 # login into mysql

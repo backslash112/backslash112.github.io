@@ -7,7 +7,7 @@ img: react-native.png
 tags: [ios]
 ---
 
-### iOS Setup
+## iOS Setup
 
 1. Install Node.js (4.0 or newer): <br />
 ```

@@ -12,7 +12,7 @@ It provide a clear and concise way to write the code.
 OK, let's start with something simple to learn to how use it.
 
 
-### A quick look at the Lambda expression
+## A quick look at the Lambda expression
 First, let define a very simple lambda expression:
 ```
 x -> x + 1
@@ -56,7 +56,7 @@ The type of x in the first expression is Integer, it takes a integer argument wh
 The type of x in the second expression is String, it takes a string argument and use the expression from to return the result of concatenates the integer 1 to any string x.
 
 
-### The type with two arguments
+## The type with two arguments
 Now we know how to define the type with one argument, how to write the code if the expression takes two arguments? Let's say we want to summarize two integer arguments x and y then return the result?
 Well, we need another class to do that, the BiFunction<T, U, R> type, the T is mean the type of the first argument, the U mean the type of the second argument, and the R mean the type of the return value. For example:
 ```
@@ -64,7 +64,7 @@ BiFunction<Integer, Integer, Integer> sum = (x, y) -> x + y;
 ```
 
 
-### The type with arguments but return value
+## The type with arguments but return value
 How to define a lambda expression if it doesn't need to return a value?
 The answer is use the `Consumer<T>` class, like this:
 
@@ -74,7 +74,7 @@ Consumer<String> sayHi = name -> System.out.println("hi, " + name);
 P.S.: If you need two arguments you need to use 'BiConsumer<T, U>' class.
 
 
-### The type without any argument
+## The type without any argument
 If we want to define a expression without any argument but you want to return a value, you need to use the `Supplier<T>` class, here is an example for it:
 ```java
 Supplier<String> getName = () -> "Carl";
@@ -82,7 +82,7 @@ Supplier<String> getName = () -> "Carl";
 This lambda expression will return a String as result when you call it each time.
 
 
-### How to invoke the lambda expression?
+## How to invoke the lambda expression?
 After we defined our lambda expressions, we need to use the `apply()` method to invoke these functions:
 ```
 Integer result = add.apply(2);  // yields 3

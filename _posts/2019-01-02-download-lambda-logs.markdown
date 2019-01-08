@@ -11,7 +11,7 @@ When we view logs at CloudWatch, the log streams are not in a single file. Somet
 If we can download all the files to local machine, then it will be much easier.
 Here are the ways to download all the log files. We can do that with two steps:
 
-### Step 1: Export all logs to S3
+## Step 1: Export all logs to S3
 View the logs at CloudWatch, and back to the parent level: Log Groups:
 ![log-groups](/assets/img/2019-01-02-download-lambda-logs/log-groups.png)
 
@@ -21,12 +21,12 @@ Select the stream by Lambda name which you want do download:
 Make sure your S3 has the correct permission, uncheck those two checkboxes:
 ![](/assets/img/2019-01-02-download-lambda-logs/acl.png)
 
-### Step 2: Download logs from S3
+## Step 2: Download logs from S3
 ```
 aws s3 sync s3://my-bucket /some/local/directory
 ```
 
-### Unzip `*.gz` logs
+## Unzip `*.gz` logs
 By default, the log files are compressed, use `gunzip` can decompose it (macOS). 
 
 ```bash
@@ -51,5 +51,5 @@ Run it with directory as parameter:
 ./run.sh /directory
 ```
 
-### References
+## References
 [https://stackoverflow.com/a/45969853/2195426](https://stackoverflow.com/a/45969853/2195426)

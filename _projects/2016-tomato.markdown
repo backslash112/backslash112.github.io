@@ -8,7 +8,7 @@ img: side-project/tomato/screenshot.png
 tags: [side-project, ios]
 ---
 
-### Introduction
+## Introduction
 Need to manage your time better, split big tasks into smaller pieces and stop giving up goals in the middle? With Tomato!, you iPhone turns into a efficient time manager and helps you to accomplish more in a day.
 
 Different than others, you have to start a task on your own after the previous break in Tomato!. This is because we believe one should be clear when to start a task and be proactive.
