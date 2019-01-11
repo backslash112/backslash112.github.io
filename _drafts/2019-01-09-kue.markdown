@@ -10,13 +10,107 @@ tags: [nodejs, redis, queue, database]
 xxx
 
 ## First, start a redis server locally
-
 The easiest way start the redis instance is using Docker, just one command
 ```
 $ docker run --name some-redis -p 6379:6379 -d redis
 ```
 
-xxx
+## Install Kue in Node.js project
+```bash
+npm install kue
+```
+See more details at GitHub page: [https://github.com/Automattic/kue](https://github.com/Automattic/kue)
+
+## Build a queue.js with Kue
+queue.js
+```javascript
+'use strict';
+
+import kue from 'kue';
+const queue = kue.createQueue();
+
+const TOPIC = 'LOG';
+const push = (log, callback) => {
+  const job = queue.create(TOPIC, {
+    log: log
+  })
+  job.save(callback);
+};
+
+const process = (func) => {
+  queue.process(TOPIC, 1, async (job, done) => {
+    await func(job.data.log);
+    done();
+  });
+};
+
+module.exports = { push, process };
+```
+
+use queue.js
+```javascript
+// push
+queue.push(log, err => {
+  if (err) {
+    console.log(err.stack);
+  }
+  console.log('pushed.');
+})
+
+// process
+queue.process(async log => {
+  // process the log
+});
+```
+
+## Unit testing
+Here is the unit test for queue.js with Jest: queue.test.js
+```javascript
+'use strict';
+
+const kue = require('kue');
+const queue = kue.createQueue();
+import risQueue from '../src/queue';
+
+beforeAll(() => {
+  queue.testMode.enter(true);
+});
+
+afterEach(() => {
+  queue.testMode.clear();
+});
+
+afterAll(async () => {
+  let queue = kue.createQueue();
+  queue.testMode.exit();
+  queue.shutdown(1, null);
+});
+
+test('enqueue records', async () => {
+  const mockPushCallback = jest.fn();
+  const mockProcessCallback = jest.fn();
+  risQueue.process(mockProcessCallback);
+  risQueue.push({ foo: 'bar' }, mockPushCallback);
+  risQueue.push({ foo: 'bar' }, mockPushCallback);
+  await new Promise((resolve, reject) => {
+      setTimeout(() => {
+          resolve();
+      }, 300);
+  });
+  expect(mockPushCallback.mock.calls.length).toBe(2);
+  expect(mockProcessCallback.mock.calls.length).toBe(2);
+  expect(queue.testMode.jobs.length).toBe(2);
+});
+```
+
+### Run the test
+- Call `jest` to run the unittest.
+- Call `jest -u --coverage` to run the unittest with a report about the code coverage.
+
+### Important:
+- While running the unittest, you must make sure the redis server is running on the test system.
+- Make sure call the `queue.shutdown(1, null);` at the `afterAll()` function.
 
 ## References
-xxx
+- [https://github.com/Automattic/kue](https://github.com/Automattic/kue)
+- [https://jestjs.io](https://jestjs.io)
