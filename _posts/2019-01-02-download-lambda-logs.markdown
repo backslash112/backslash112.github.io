@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Download the logs of AWS Lambda"
+title:  "Download the logs of AWS Lambda from AWS CloudWatch"
 date:  2019-01-02
 description: ""
 img: aws.png
