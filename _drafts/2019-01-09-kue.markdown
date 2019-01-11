@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Use Kue in Node.js"
+date:  2019-01-09 21:57
+description: "Kue a priority job queue backed by redis, built for Node.js"
+img: node-redis.png
+tags: [nodejs, redis, queue, database]
+---
+
+xxx
+
+## First, start a redis server locally
+
+The easiest way start the redis instance is using Docker, just one command
+```
+$ docker run --name some-redis -p 6379:6379 -d redis
+```
+
+xxx
+
+## References
+xxx
