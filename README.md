@@ -17,7 +17,9 @@ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:2.5 bundle install
 
 // Build website
 docker run --rm -v "$PWD:/srv/jekyll" -it jekyll/jekyll jekyll build
+
 docker commit a4703c61e03c jekyll/jekyll-gem
+
 docker run --rm -v "$PWD:/srv/jekyll" -it jekyll/jekyll-gem jekyll build --watch --drafts
 
 // Run the website locally

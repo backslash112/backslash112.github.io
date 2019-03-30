@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Unique List in JavaScript"
+date:  2019-03-30 16:32
+description: ""
+img: js.jpg
+tags: [js]
+---
+
+## Unique List in JavaScript
+
+### Method 1: Extend native `Array` with `prototype` objects
+```javascript
+Array.prototype.addUnique = function(newItem) {
+  if (this.includes(newItem)) {
+    return;
+  }
+  this.push(newItem);
+}
+
+const names = [];
+const uniqueNames = [];
+
+names.push('cun');
+names.push('cun');
+
+uniqueNames.addUnique('cun');
+uniqueNames.addUnique('cun');
+
+console.log(names);
+// with print: [ 'cun', 'cun' ]
+console.log(uniqueNames);
+// with print: [ 'cun' ]
+```
+#### Note:
+Must use `function (newItem) {}`, not anonymous function `(newItem) => {}`.
+### Method 2: From ES6/ES2015, we can using `Set`
+
+```javascript
+const set = new Set();
+set.add('cun');
+set.add('cun');
+
+console.log(set);
+// with print: Set { 'cun' }
+```
+
+## References
+https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
