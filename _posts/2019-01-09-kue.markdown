@@ -7,8 +7,6 @@ img: node-redis.png
 tags: [nodejs, redis, queue, database]
 ---
 
-xxx
-
 ## First, start a redis server locally
 The easiest way start the redis instance is using Docker, just one command
 ```
