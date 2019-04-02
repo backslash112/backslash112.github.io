@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "`this`, `__proto__` and `prototype` in JavaScript"
+title:  "'this', '__proto__' and 'prototype' in JavaScript"
 date:  2019-04-02
 description: ""
-img: js.png
+img: js.jpg
 tags: [js]
 ---
 

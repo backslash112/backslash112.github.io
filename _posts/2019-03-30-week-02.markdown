@@ -3,7 +3,7 @@ layout: post
 title:  "Data Structure and Algorithms in JavaScript"
 date:  2019-04-02
 description: ""
-img: js1.jpg
+img: js1.png
 tags: [js]
 ---
 
