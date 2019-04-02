@@ -3,7 +3,7 @@ layout: post
 title:  "'this', '__proto__' and 'prototype' in JavaScript"
 date:  2019-04-02
 description: ""
-img: js.jpg
+img: js1.png
 tags: [js]
 ---
 
