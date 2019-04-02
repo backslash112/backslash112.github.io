@@ -7,6 +7,11 @@ img: js1.png
 tags: [js]
 ---
 
+## How to check if an Object is an Array and Empty?
+```javascript
+if (arr && (Object.prototype.toString.call(arr) === '[object Array]' && arr.length === 0)) {
+}
+```
 ## How does the `this` keyword work?
 
 ### ThisBinding
