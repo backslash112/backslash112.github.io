@@ -1,5 +1,4 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
-
+# My Tech Blog
 https://cunyang.me
 
 ## Features
