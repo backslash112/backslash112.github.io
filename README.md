@@ -13,13 +13,18 @@ https://cunyang.me
 ## Installation:
 ``` sh
 # Install dependencies
-docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:2.5 bundle install
+docker run --rm -v "$PWD":/usr/src/app \
+-w /usr/src/app ruby:2.5 bundle install
 
 # Build website
-docker run --rm -v "$PWD:/srv/jekyll" -it jekyll/jekyll jekyll build --watch --drafts
+docker run --rm -v "$PWD:/srv/jekyll" \
+-it jekyll/jekyll jekyll build --watch --drafts
 
 # Run the website locally
-docker run -it --rm -p 4201:4201 -v "$PWD/_site":/usr/src/app -w /usr/src/app node /bin/bash -c ' npm i http-server -g && http-server -p 4201'
+docker run -it --rm -p 4201:4201 \
+-v "$PWD/_site":/usr/src/app \
+-w /usr/src/app node /bin/bash \
+-c ' npm i http-server -g && http-server -p 4201'
 
 # Modify the theme
 npm i
@@ -30,7 +35,8 @@ gulp
 
 ## Modify the _syntax theme of code
 ```sh
-# 1. Find a theme from http://richleland.github.io/pygments-css/, copy the content of xx.css file and parse it to `_syntax.scss`
+# 1. Find a theme from http://richleland.github.io/pygments-css/, 
+#    copy the content of xx.css file and parse it to `_syntax.scss`
 
 # 2. Install `gulp` 
 npm i -g gulp
@@ -38,7 +44,8 @@ npm i -g gulp
 # 3. Install dependencies
 npm i
 
-# 4. Run command `gulp`, this will automate find the `gulpfile.js` and regenerate the `main.css` from assets/scss folder.
+# 4. Run command `gulp`, this will automate find the `gulpfile.js`
+#    and regenerate the `main.css` from assets/scss folder.
 gulp
 ```
 
