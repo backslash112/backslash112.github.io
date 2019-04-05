@@ -7,6 +7,13 @@ img: js1.png
 tags: [js]
 ---
 
+## Remove duplicate values from an Array?
+Use `Set` and `spreading`:
+```javascript
+const nums = [1,2,2,3,4,4,4,5];
+const newNums = [...new Set(nums)];
+console.log(newNums);
+```
 ## How to check if an Object is an Array and Empty?
 ```javascript
 if (arr && (Object.prototype.toString.call(arr) === '[object Array]' && arr.length === 0)) {

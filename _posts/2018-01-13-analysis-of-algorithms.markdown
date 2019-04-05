@@ -7,6 +7,71 @@ img: analysis-algorithms.jpg
 tags: [algorithms]
 ---
 
+## Update 2019-04-05
+
+### Big O
+- If we wanted to find a number in the list, this would be `O(n)` since at most we would have to look through **the entire list** to find our number. 
+-  The Big-O is still `O(n)` even though we might find our number the first try and run through the loop once because Big-O describes the **upper bound** for an algorithm. ([stackoverflow](https://stackoverflow.com/a/3368/2195426))
+
+### What is tail recursion?
+Compare those two functions:
+```javascript
+function recsum(x) {
+    if (x===1) {
+        return x;
+    } else {
+        return x + recsum(x-1);
+    }
+}
+// output:
+/*
+recsum(5)
+5 + recsum(4)
+5 + (4 + recsum(3))
+5 + (4 + (3 + recsum(2)))
+5 + (4 + (3 + (2 + recsum(1))))
+5 + (4 + (3 + (2 + 1)))
+15
+*/
+```
+```javascript
+function tailrecsum(x, running_total=0) {
+    if (x===0) {
+        return running_total;
+    } else {
+        return tailrecsum(x-1, running_total+x);
+    }
+}
+// output:
+/*
+tailrecsum(5, 0)
+tailrecsum(4, 5)
+tailrecsum(3, 9)
+tailrecsum(2, 12)
+tailrecsum(1, 14)
+tailrecsum(0, 15)
+15
+*/
+```
+In the tail-recursive case, with each evaluation of the recursive call, the running_total is updated.
+([stackoverflow](https://stackoverflow.com/a/37010/2195426))
+
+### How to find time complexity of an algorithm?
+
+You add up how many machine instructions it will execute as a function of the size of its input, and then simplify the expression to the largest (when `N` is very large) term and can include any simplifying constant factor.
+For example, lets see how we simplify `2N + 2` machine instructions to describe this as just `O(N)`.
+
+#### Why do we remove the two `2s` ?
+
+We are interested in the performance of the algorithm as `N` becomes large.
+Consider the two terms `2N` and `2`.
+What is the relative influence of these two terms as N becomes large? Suppose `N` is a million.
+Then the first term is 2 million and the second term is only `2`.
+For this reason, we drop all but the largest terms for large `N`.
+So, now we have gone from `2N + 2` to `2N`.
+([stackoverflow](https://stackoverflow.com/a/11032063/2195426))
+
+___
 ## What is analysis of algorithms?
 The definition of the technical level about analysis of algorithms is:<br>
 Study the use efficiency of **time** and **memory space** when an algorithm is running.<br>
