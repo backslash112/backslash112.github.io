@@ -14,3 +14,5 @@ searching on a field that isn’t sorted requires a Linear Search which requires
 Whereas with a sorted field, a **Binary Search** may be used, which has `log2 N` block accesses. 
 
 Indexing is a way of sorting a number of records on multiple fields. Creating an index on a field in a table creates another data structure which holds the field value, and a pointer to the record it relates to. This index structure is then sorted, allowing **Binary Searches** to be performed on it.
+
+Since indexes are only used to speed up the searching for a matching field within the records, it stands to reason that indexing fields used only for output would be simply a waste of disk space and processing time when doing an insert or delete operation, and thus should be avoided.
