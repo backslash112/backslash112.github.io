@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Database"
+date:  2019-04-09
+description: ""
+img: db.png
+tags: [db]
+---
+
+## How does database indexing work?
+([stackoverflow](https://stackoverflow.com/a/1130/2195426))
+
+searching on a field that isn’t sorted requires a Linear Search which requires `N/2` block accesses (on average), where N is the number of blocks that the table spans. 
+Whereas with a sorted field, a **Binary Search** may be used, which has `log2 N` block accesses. 
+
+Indexing is a way of sorting a number of records on multiple fields. Creating an index on a field in a table creates another data structure which holds the field value, and a pointer to the record it relates to. This index structure is then sorted, allowing **Binary Searches** to be performed on it.
