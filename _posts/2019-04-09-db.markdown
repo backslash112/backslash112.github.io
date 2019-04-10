@@ -17,5 +17,23 @@ Indexing is a way of sorting a number of records on multiple fields. Creating an
 
 Since indexes are only used to speed up the searching for a matching field within the records, it stands to reason that indexing fields used only for output would be simply a waste of disk space and processing time when doing an insert or delete operation, and thus should be avoided.
 
-## The Joy of MongoDB Indexes
+## Useful Resources
+### The Joy of MongoDB Indexes
 [The Joy of MongoDB Indexes (Reprinted)](../the-joy-of-mongodb-indexes/)
+- Bonus Quiz: 
+  - Our cookbook now has three indexes: one on recipe name, one on ingredients, and one on ingredient->name. With the compound index in place, is it possible to eliminate either of the first two indexes we created?
+- Answer:
+  - Yes! We can safely tear out the single-key index on ingredients. Why? Because a search that just specifies an ingredient can use the index on ingredient->name. If we know an ingredient, we can, using that compound index, easily get a list of all page numbers containing said ingredient. Look again at the sample entries for this index to see why this is so.
+
+### MongoDB Document - Indexes
+[MongoDB Document - Indexes](https://docs.mongodb.com/manual/indexes/)
+
+- Single Field Index
+```javascript
+db.collection.createIndex( { name: -1 } )
+```
+- Compound Index
+```javascript
+db.collection.createIndex( { userid: 1,  score: -1 } )
+// the index sorts first by userid and then, within each userid value, sorts by score.
+```
