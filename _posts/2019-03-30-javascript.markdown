@@ -6,8 +6,7 @@ description: ""
 img: js1.png
 tags: [js]
 ---
-## How do JavaScript closures work?
-([stackoverflow](https://stackoverflow.com/a/111111/2195426))
+## How do JavaScript closures work? ([stackoverflow](https://stackoverflow.com/a/111111/2195426))
 ```javascript
 function sayHello2(name) {
   var text = 'Hello ' + name; // Local variable
@@ -34,10 +33,10 @@ console.log(newNums);
 if (arr && (Object.prototype.toString.call(arr) === '[object Array]' && arr.length === 0)) {
 }
 ```
-## How does the `this` keyword work?
+## How does the `this` keyword work? ([stackoverflow](https://stackoverflow.com/questions/3127429/how-does-the-this-keyword-work))
 
 ### ThisBinding
- If a function is called on an object, such as in obj.myMethod() or the equivalent obj["myMethod"](), then ThisBinding is set to the object (obj in the example). 
+ If a function is called on an object, such as in `obj.myMethod()` or the equivalent `obj["myMethod"]()`, then ThisBinding is set to the object (obj in the example). 
  In most other cases, ThisBinding is set to the global object.
 
 
