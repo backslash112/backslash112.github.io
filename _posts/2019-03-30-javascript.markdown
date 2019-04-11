@@ -16,7 +16,7 @@ function sayHello2(name) {
 }
 var say2 = sayHello2('Bob');
 say2();
-// // logs "Hello Bob"
+// logs "Hello Bob"
 ```
 - In JavaScript, you can think of a function reference variable as having both a pointer to a function as well as a hidden pointer to a closure. (two pointers)
 - In JavaScript, if you use the function keyword inside another function, you are creating a closure. (function inside function => closure)
