@@ -6,6 +6,21 @@ description: ""
 img: js1.png
 tags: [js]
 ---
+## How do JavaScript closures work?
+([stackoverflow](https://stackoverflow.com/a/111111/2195426))
+```javascript
+function sayHello2(name) {
+  var text = 'Hello ' + name; // Local variable
+  var say = function() { console.log(text); }
+  return say;
+}
+var say2 = sayHello2('Bob');
+say2();
+// // logs "Hello Bob"
+```
+- In JavaScript, you can think of a function reference variable as having both a pointer to a function as well as a hidden pointer to a closure. (two pointers)
+- In JavaScript, if you use the function keyword inside another function, you are creating a closure. (function inside function => closure)
+- In C and most other common languages, after a function returns, all the local variables are no longer accessible because the stack-frame is destroyed. But in JavaScript, if you declare a function within another function, then the local variables of the outer function can remain accessible after returning from it. The genius is that in JavaScript a function reference also has a secret reference to the closure it was created in.
 
 ## Remove duplicate values from an Array?
 Use `Set` and `spreading`:
