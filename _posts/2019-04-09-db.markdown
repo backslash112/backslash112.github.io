@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Database"
+title:  "How does database indexing work?"
 date:  2019-04-09
 description: ""
-img: db.png
+img: bd.png
 tags: [db]
 ---
 
