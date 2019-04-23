@@ -31,6 +31,7 @@ custom:
     exclude:
       - aws-sdk
       - aws-sdk/clients/s3
+      - ./**/*/aws-sdk/**
 ```
 
 ## References
