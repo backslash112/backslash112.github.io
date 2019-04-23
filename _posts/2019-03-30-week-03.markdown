@@ -32,6 +32,7 @@ custom:
       - aws-sdk
       - aws-sdk/clients/s3
       - ./**/*/aws-sdk/**
+      - ./**/*/.cache/**
 ```
 
 ## References
