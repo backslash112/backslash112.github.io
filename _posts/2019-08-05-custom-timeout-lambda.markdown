@@ -46,3 +46,15 @@ module.exports.hello = async (event) => {
 };
 
 ```
+
+Here I use `race` operator to take the first emitting:
+
+![img](https://miro.medium.com/max/150/1*rMlMQMO2oRecJ408HH4ngQ.gif)
+
+The reason I'm using this is: let's say there is a Lambda function, let's call it `work()`, at some points it takes longer that 15 mins which out of our control. Instead of let AWS Lambda to throw the Timeout error, when the `work()` process start running, I let another process (called `timeout()` at here, with config timeout 14 mins) to start together with `work()` function, then the `timeout()` will return at the point 14 mins which can allow us to catch this custom timeout outside.
+
+
+## Refrences
+[learn-rxjs: race](https://www.learnrxjs.io/operators/combination/race.html)
+
+[Learn to combine RxJs sequences with super intuitive interactive diagrams](https://blog.angularindepth.com/learn-to-combine-rxjs-sequences-with-super-intuitive-interactive-diagrams-20fce8e6511)
