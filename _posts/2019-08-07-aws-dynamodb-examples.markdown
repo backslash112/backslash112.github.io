@@ -7,9 +7,7 @@ img: ddb.png
 tags: [js]
 ---
 
-## Best practices with AWS
-
-### Insert One Record
+### Example 1: Insert One Record
 ```js
 const params = {
   TableName: "store",
@@ -29,7 +27,7 @@ client.put(params, (err, data) => {
 });
 ```
 
-### Get One Record
+### Example 2: Get One Record
 ```js
 const params = {
   TableName: 'store',
@@ -48,7 +46,7 @@ client.get(params, (err, data) => {
 })
 ```
 
-### Update One Record
+### Example 3: Update One Record
 ```js
 const params = {
   TableName: 'store1',
@@ -71,7 +69,7 @@ client.update(params, (err, data) => {
 });
 ```
 
-### Get All Records from One Partition
+### Example 4: Get All Records from One Particular Partition
 ```js
 const params = {
   TableName: 'store1',
@@ -90,7 +88,7 @@ client.query(params, (err, data) => {
 });
 ```
 
-### Get Records by Condition
+### Example 5: Get Records by Condition from All Records
 ```js
 const params = {
   TableName: 'store1',
