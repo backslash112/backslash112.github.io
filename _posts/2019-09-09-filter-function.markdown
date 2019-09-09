@@ -25,6 +25,7 @@ const filter1 = (f, list) => {
 
 ### filter2: use recursion
 ```js
+// use recursion
 const filter2 = (f, list) => {
   if (list.length === 0) {
     return [];
@@ -39,6 +40,7 @@ const filter2 = (f, list) => {
 
 ### filter3: use recursion with accumulator
 ```js
+// use recursion with accumulator
 const filter3 = (f, list, acc) => {
   if (list.length === 0) {
     return acc;
