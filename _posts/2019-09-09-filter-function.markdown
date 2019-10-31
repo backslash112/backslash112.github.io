@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Three ways to write the filter function."
+title:  "Accumulator: Three ways to write the filter function."
 date:  2019-09-09
 description: ""
 img: js.jpg
 tags: [js]
 ---
 
-Here are two new ways I learned from coursera course: Programming Languages, Part A.
-### filter1: use a loop
+Accumulator a new thing for me that I just learned from coursera course: Programming Languages, Part A.
+Let's take one easy example function to understand the idea of accumulator.
+### filter1(): use a loop
 ```js
 // use loop
 const filter1 = (f, list) => {
@@ -23,7 +24,7 @@ const filter1 = (f, list) => {
 }
 ```
 
-### filter2: use recursion
+### filter2(): use recursion
 ```js
 // use recursion
 const filter2 = (f, list) => {
@@ -38,7 +39,7 @@ const filter2 = (f, list) => {
 }
 ```
 
-### filter3: use recursion with accumulator
+### filter3(): use recursion with accumulator
 ```js
 // use recursion with accumulator
 const filter3 = (f, list, acc) => {
@@ -65,6 +66,9 @@ console.log(res3);
 // [1,2,3]
 // [1,2,3]
 ```
+
+### reduce() in JavaScript
+
 
 ## Refrences
 [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages/home/welcome)
