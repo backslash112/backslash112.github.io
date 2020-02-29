@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Study Notes of Coursera Course: Programming Languages, Part A" 
+date:  2019-08-20
+description: ""
+img: sml.png
+tags: [functional-programming]
+---
+
+[Study Notes of Coursera Course: Programming Languages, Part A](https://www.coursera.org/learn/programming-languages/home/week/3)
+### DAY#1
+Sunday, August 18, 2019 
+#### Environments setup
+
+Udpate Aug 30, 2019:
+
+A better way is create a Dockerfile file, and build a new docker image, and use the one-line command to start using sml directly:
+Dockerfile:
+```sh
+FROM ubuntu
+RUN apt-get upate && apt-get install emacs smlnj
+CMD sml
+```
+
+Build and use the new image, let's call it `backslash112/sml`:
+```sh
+docker build -t "backslash112/sml" .
+docker run --rm -it -v "$PWD":/tmp backslash112/sml
+# or
+docker run --rm -it -v "$PWD":/tmp backslash112/sml /bin/bash
+```
+---
+Want to run SML files in macOS system but don't want install lots of packages directly? You can start a Unbuntu system by using Docker instead.
+Here are the commands:
+```sh
+# run unbutu in docker
+docker run --rm -it -v "$PWD":/tmp ubuntu /bin/bash
+apt-get update
+# install emacs
+apt-get install emacs
+# install sml
+apt-get install smlnj
+sml
+```
+
+### DAY#2
+Tuesday, August 20, 2019 
+#### Questions to think about: 
+
+1. What is "Pattern Matching"? (section 2)
+2. What is "Tail Recursion"? What is "Accumulators"? What's the difference between "normal recursion" and "tail recursion"?
+3. What is "Nested patterns"?
+4. What are "One-of" type and "Each-of" type?
+5. What is the meaning of "Conceptual Way"?
+
+#### Answers:
+
+1. TODO: 
+2. TODO:
+3. TODO:
+
+4. Each-of and One-of:
+- "Each-of": A compound type t describes values that contain each of values of type t1, t2, ..., and tn. Like tuples in SML or class in Java.
+- "One-of": A compound type t describes values that contain a value of one of the types t1, t2, ..., or tn. Like `int option` in SML or subclassing in Java.
+
