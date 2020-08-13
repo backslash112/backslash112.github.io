@@ -1,0 +1,16 @@
+---
+layout: post
+title: Test AWS Service in Local
+date: 2020-06-30
+description: "Test AWS Service in your local can make the development easier and is a choice for unit testing."
+img: aws.png
+---
+
+localstack is an AWS-mocking tool running in your local.
+
+```sh
+# install
+pip install localstack
+pip install awscli-local
+
+```
