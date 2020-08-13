@@ -1,6 +1,6 @@
 title: Cun Yang
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a software developer with the main focus on Node.js and Amazon AWS.
+  I'm a software developer with the main focus on Node.js, AWS and MongoDB.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Cun Yang # add your name
 author-img: carl-yang.jpg # add your photo
-about-author: "I'm a software developer with the main focus on Node.js and Amazon AWS."
+about-author: "I'm a software developer with the main focus on Node.js, AWS and MongoDB."
 social-twitter: backslash112 # add your Twitter handle
 # social-facebook: backslash112 # add your Facebook handle
 social-medium: backslash112 # add your Facebook handle
