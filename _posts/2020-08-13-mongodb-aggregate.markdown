@@ -3,7 +3,7 @@ layout: post
 title:  "MongoDB $lookup pipeline"
 date:  2020-03-06
 description: ""
-img: db.jpg
+img: mongo.jpeg
 tags: [mongodb, aggragate]
 ---
 
@@ -47,7 +47,7 @@ WHERE items.storeId = inventories.storeId AND items.itemId = inventories.itemId
 
 for single field matching.
 
-```sh
+```js
 {
    $lookup:
      {
@@ -63,7 +63,7 @@ for single field matching.
 
 For 2 and more fields matching.
 
-```sh
+```js
 {
    $lookup:
      {
@@ -77,7 +77,7 @@ For 2 and more fields matching.
 
 #### Here we should syntax #2 to convert above SQL statement into MongoDB aggregation
 
-```sh
+```js
 db.items.aggregate([
   {
     "$lookup": {
@@ -122,8 +122,7 @@ db.items.aggregate([
 
 #### Note below version is WRONG which using syntax #1 to join two fields
 
-```sh
-
+```js
 db.items.aggregate([
   {
     "$lookup": {
