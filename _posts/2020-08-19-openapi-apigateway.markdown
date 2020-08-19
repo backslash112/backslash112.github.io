@@ -17,24 +17,10 @@ Resources:
     Properties:
       Name: !Sub ${service}-${branch}-private-api
       StageName: dev
-      MethodSettings:
-        - HttpMethod: '*'
-          ResourcePath: '/*'
-          LoggingLevel: INFO # ERROR
-          DataTraceEnabled: true
-          MetricsEnabled: true
-      EndpointConfiguration: Private
+      ...
       DefinitionBody: !Sub |
         openapi: '3.0.0'
-        x-amazon-apigateway-policy:
-          Version: "2012-10-17"
-          Statement:
-            -
-              Effect: "Allow"
-              Principal: "*"
-              Action:
-                - "execute-api:Invoke"
-              Resource: "execute-api:/*"
+        ...
         info:
           title: ${service}
           version: "1.0"
@@ -50,38 +36,42 @@ Resources:
 ### Request parameters defination
 
 ```yaml
-description: Query user by user ID
-parameters:
-  - in: path
-    name: userId
-    required: true
-    type: string
+/user
+  get:
+    description: Query user by user ID
+    parameters:
+      - in: path
+        name: userId
+        required: true
+        type: string
 ```
 
 ### Request body defination
 
 ```yaml
-requestBody:
-  required: true
-  content:
-    application/json:
-      schema:
-        type: array
-        minItems: 1
-        maxItems: 100
-        items:
-          type: object
-          properties:
-            userId:
-              type: string
-            userName:
-              type: string
-            enable:
-              type: boolean
-          required:
-            - userId
-            - userName
-            - enable
+/user
+  post:
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: array
+            minItems: 1
+            maxItems: 100
+            items:
+              type: object
+              properties:
+                userId:
+                  type: string
+                userName:
+                  type: string
+                enable:
+                  type: boolean
+              required:
+                - userId
+                - userName
+                - enable
 ```
 
 ## Enable validation in AWS API Gateway
