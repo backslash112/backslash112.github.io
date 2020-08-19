@@ -84,3 +84,12 @@ x-amazon-apigateway-request-validators:
       validateRequestParameters: true
       validateRequestBody: true
 ```
+
+## Resources
+
+1. https://github.com/awslabs/serverless-application-model/issues/1250
+2. https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-template.html (Another way to setup api using lambda events.)
+3. https://github.com/awslabs/serverless-application-model/issues/579 (AWS::Serverless::Api - MethodSettings)
+4. https://swagger.io/docs/specification/data-models/data-types/#range
+5. https://swagger.io/docs/specification/describing-request-body/
+6. https://swagger.io/specification/
