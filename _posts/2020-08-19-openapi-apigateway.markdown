@@ -3,7 +3,7 @@ layout: post
 title:  "How to use OpenAPI 3.0 with AWS API Gateway to define your APIs"
 date:  2020-08-19
 description: ""
-img: mongo.jpeg
+img: aws.png
 tags: [aws, api, openapi3, swagger]
 ---
 
