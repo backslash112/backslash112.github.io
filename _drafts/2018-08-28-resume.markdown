@@ -3,12 +3,6 @@ layout: post
 title:  "CUN YANG"
 date:  2018-09-28  
 description: "My latest Resume, update at Oct 7, 2018"
-img: resume1.jpg
-
----
-<div id="container">
-<p id="contact-info">Dallas, Texas • Email: <a href="mailto:cun.yang@outlook.com">cun.yang@outlook.com</a></p>
-<hr />
 
 
 <ul id="skill-list">

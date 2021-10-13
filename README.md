@@ -1,4 +1,4 @@
-# My Tech Blog
+My Tech Blog
 https://cunyang.me
 
 ## Features
@@ -16,7 +16,7 @@ docker run --rm -v "$PWD":/usr/src/app \
 -w /usr/src/app ruby:2.5 bundle install
 
 # Build website
-docker run --rm -v "$PWD:/srv/jekyll" \
+docker run --rm -v "$PWD:/srv/jekyll" n\
 -it jekyll/jekyll jekyll build --watch --drafts
 
 # Run the website locally
