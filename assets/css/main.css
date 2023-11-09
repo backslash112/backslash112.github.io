@@ -142,7 +142,7 @@ kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 0.9em;
+  font-size: 0.8em;
   /* 2 */
   color: #75140c;
 }

@@ -6,7 +6,6 @@ description: ""
 img: lb.jpeg
 tags: [kubernetes, loadbalancer, haproxy, keepalived, dynamicdns]
 ---
-# 
 
 High availability (HA) is a critical component of modern IT infrastructure, ensuring minimal service disruption and maintaining business continuity. In this post, we'll unveil a robust HA setup using HAProxy and Keepalived, with the assistance of Dynamic DNS for seamless failover, all without the need for a floating IP.
 
