@@ -1,5 +1,3 @@
-My Tech Blog
-https://cunyang.me
 
 ## Features
 
